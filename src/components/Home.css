@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200..800&display=swap");
+
+.hero {
+  margin-top: 60px;
+  padding: 0px 60px;
+  height: 100vh;
+  background: #f5df4e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .left {
+  /* border: 2px solid red; */
+}
+
+.hero .left .info {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hero .left .info h2 {
+  font-size: 48px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.hero .left .info p {
+  color: rgba(54, 54, 54, 0.945);
+  font-size: 100px;
+  font-weight: 700;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero .left .based {
+  /* border: 2px solid red; */
+  font-size: 40px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hero .left .left-buttons {
+  /* border: 2px solid white; */
+  padding: 30px 0px;
+}
+
+.hero .left .left-buttons .view-my-work {
+  padding: 10px 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero .left .left-buttons .contact {
+  color: black;
+  margin-left: 30px;
+  font-size: 22px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.right img {
+  width: 600px;
+  height: auto;
+}
