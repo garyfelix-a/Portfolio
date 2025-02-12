@@ -51,13 +51,13 @@
 }
 
 .hero .left .left-buttons .view-my-work {
-  padding: 10px 10px;
+  padding: 10px 30px;
   border: 2px solid black;
   text-decoration: none;
   font-size: 22px;
   color: white;
   background-color: black;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
   font-family: "Dosis", serif;
   font-optical-sizing: auto;

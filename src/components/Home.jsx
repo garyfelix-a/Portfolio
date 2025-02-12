@@ -28,8 +28,8 @@ const Home = () => {
               cursor
               cursorStyle="|"
               typeSpeed={100}
-              deleteSpeed={50}
-              delaySpeed={1000}
+              deleteSpeed={100}
+              delaySpeed={2000}
             />
           </p>
         </div>
