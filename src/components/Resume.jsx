@@ -22,29 +22,17 @@ const Resume = () => {
               <div className="ed-details">
                 <h3>Bachelor of Computer Science and Engineering</h3>
                 <p>Knowledge Institute Of Technology, KIOT / 2019 - 2023</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Itaque impedit eligendi tempora quam. In aliquid fugit a
-                  cupiditate quaerat velit?
-                </p>
+                <p>Percentage : 82%</p>
               </div>
               <div className="ed-details">
                 <h3>Class XII standard</h3>
                 <p>St. John&apos;s Higher Secondary School / 2018 - 2019</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Itaque impedit eligendi tempora quam. In aliquid fugit a
-                  cupiditate quaerat velit?
-                </p>
+                <p>Percentage : 69%</p>
               </div>
               <div className="ed-details">
                 <h3>Class X standard</h3>
                 <p>St. John&apos;s Higher Secondary School / 2016 - 2017</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Itaque impedit eligendi tempora quam. In aliquid fugit a
-                  cupiditate quaerat velit?
-                </p>
+                <p>Percentage : 90%</p>
               </div>
             </div>
           </div>
@@ -55,27 +43,21 @@ const Resume = () => {
                 <h3>Freelance Content Writer</h3>
                 <p>Foftact.com / 2020 - Current</p>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eligendi molestiae nostrum cumque voluptatum? Quis aliquam
-                  incidunt totam voluptate numquam qui.
+                  Currently working as freelance content writer on foftact.com
                 </p>
               </div>
               <div className="ex-details">
                 <h3>React JS Developer Internship</h3>
                 <p>Deecodes.io / 2024 - 2024</p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae odit aliquid quidem impedit dicta beatae, quas
-                  deleniti officia facere! Cum?
+                  Completed React JS Developer Internship at Deecodes.io 
                 </p>
               </div>
               <div className="ex-details">
                 <h3>Cisco Cybersecurity Internship</h3>
                 <p>Cisco / 2022 - 2022</p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Temporibus, delectus? Qui maxime quidem veniam commodi, autem
-                  repudiandae quaerat expedita nobis? Quo, vitae.
+                  Completed Cisco Cybersecurity Internship at CISCO
                 </p>
               </div>
             </div>
@@ -95,7 +77,9 @@ const Resume = () => {
         </div>
       </div>
       {/* <a className="download-btn"></a> */}
-      <a href="/resume.pdf" download="Gary Felix A - Resume.pdf">Download CV</a>
+      <a href="/Gary Felix A - Resume.pdf" download="Gary Felix A - Resume.pdf">
+        Download CV
+      </a>
     </div>
   );
 };
