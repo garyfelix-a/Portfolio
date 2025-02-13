@@ -26,6 +26,15 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   }
 
+  function scrollToSection(id){
+    const section = document.getElementById(id);
+
+    if(section){
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsOpen(false);
+  }
+
   return (
     <nav className={scrolling ? "scroll" : ""}>
       {/* Website Title */}
@@ -40,12 +49,12 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <ul className={`nav-links ${isOpen ? "open" : "close"}`}>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">What I do</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a onClick={() => scrollToSection("home")}>Home</a></li>
+        <li><a onClick={() => scrollToSection("about")}>About Me</a></li>
+        <li><a onClick={() => scrollToSection("whatIDo")}>What I do</a></li>
+        <li><a onClick={() => scrollToSection("resume")}>Resume</a></li>
+        <li><a onClick={() => scrollToSection("portfolio")}>Portfolio</a></li>
+        <li><a onClick={() => scrollToSection("contact")}>Contact Me</a></li>
       </ul>
     </nav>
   );

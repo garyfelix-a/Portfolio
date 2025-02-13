@@ -1,3 +1,211 @@
+@media screen and (min-width: 1201px) {
+  .resume {
+    height: auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+
+  .resume .title h2 {
+    text-align: center;
+    padding: 0px 5px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f5df4e;
+  }
+
+  .resume .sub-title {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+
+  .resume-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .resume-content .left-and-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .resume .left {
+    width: 50%;
+  }
+
+  .resume .right {
+    margin-left: 20px;
+    width: 50%;
+  }
+
+  .resume-content .left .ed {
+    border: 3px solid #f5df4e;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding-left: 20px;
+  }
+
+  .resume-content .left h2 {
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .resume-content .left .ed .ed-details {
+    margin: 15px 0px;
+    border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+    padding-bottom: 15px;
+  }
+
+  .resume-content .left .ed .ed-details:nth-child(3) {
+    border-bottom: transparent;
+  }
+
+  .resume-content .left .ed-details h3 {
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+
+  .resume-content .left .ed-details p {
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+  }
+
+  .resume-content .right .ex {
+    border: 3px solid #f5df4e;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding: 0px 20px;
+  }
+
+  .resume-content .right h2 {
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .resume-content .right .ex .ex-details {
+    margin: 15px 0px;
+    border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+    padding-bottom: 15px;
+  }
+
+  .resume-content .right .ex .ex-details:nth-child(3) {
+    border-bottom: transparent;
+  }
+
+  .resume-content .right .ex-details h3 {
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+
+  .resume-content .right .ex-details p {
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+  }
+
+  .my-skills h2 {
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+  }
+
+  .skill-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+  }
+
+  .skill-img img:nth-child(1) {
+    width: 100px;
+    height: auto;
+  }
+  .skill-img img:nth-child(2) {
+    width: 100px;
+    height: auto;
+  }
+  .skill-img img:nth-child(3) {
+    width: 110px;
+    height: auto;
+  }
+  .skill-img img:nth-child(4) {
+    width: 180px;
+    height: auto;
+  }
+  .skill-img img:nth-child(5) {
+    width: 150px;
+    height: auto;
+  }
+  .skill-img img:nth-child(6) {
+    width: 110px;
+    height: auto;
+  }
+  .skill-img img:nth-child(7) {
+    width: 150px;
+    height: auto;
+  }
+
+  .resume a {
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+
+  .resume a:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
 .resume {
   height: auto;
   padding: 40px 60px;
@@ -26,11 +234,7 @@
 }
 
 .resume-content{
-  /* border: 2px solid red; */
   width: 100%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   margin-top: 20px;
 }
 
@@ -39,12 +243,10 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  /* border: 2px solid red; */
   width: 100%;
 }
 
 .resume .left{
-  /* margin-right: 30px; */
   width: 50%;
 }
 
@@ -114,7 +316,866 @@
 }
 
 .resume-content .right .ex .ex-details{
-  /* border: 2px solid red; */
+  margin: 15px 0px;
+  border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+  padding-bottom: 15px;
+}
+
+.resume-content .right .ex .ex-details:nth-child(3){
+  border-bottom: transparent;
+}
+
+.resume-content .right .ex-details h3{
+  font-size: 22px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 10px; 
+}
+
+.resume-content .right .ex-details p{
+  font-size: 18px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.my-skills h2{
+  font-size: 30px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.skill-img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  margin-top: 20px;
+}
+
+.skill-img img:nth-child(1){
+  width: 90px;
+  height: auto;
+}
+.skill-img img:nth-child(2){
+  width: 90px;
+  height: auto;
+}
+.skill-img img:nth-child(3){
+  width: 100px;
+  height: auto;
+}
+.skill-img img:nth-child(4){
+  width: 170px;
+  height: auto;
+}
+.skill-img img:nth-child(5){
+  width: 140px;
+  height: auto;
+}
+.skill-img img:nth-child(6){
+  width: 100px;
+  height: auto;
+}
+.skill-img img:nth-child(7){
+  width: 140px;
+  height: auto;
+}
+
+.resume a{
+  font-size: 18px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding: 15px 40px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.resume a:hover{
+  background-color: black;
+  color: white;
+  transition: all .3s ease-in-out;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .resume {
+    height: auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .resume .title h2 {
+    text-align: center;
+    padding: 0px 5px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f5df4e;
+  }
+  
+  .resume .sub-title {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+  
+  .resume-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .resume-content .left-and-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .resume .left{
+    width: 100%;
+  }
+  
+  .resume .right{
+    width: 100%;
+  }
+  
+  .resume-content .left .ed{
+    border: 3px solid #f5df4e;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding-left: 20px;
+  }
+  
+  .resume-content .left h2{
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .resume-content .left .ed .ed-details{
+    margin: 15px 0px;
+    border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+    padding-bottom: 15px;
+  }
+  
+  .resume-content .left .ed .ed-details:nth-child(3){
+    border-bottom: transparent;
+  }
+  
+  .resume-content .left .ed-details h3{
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px; 
+  }
+  
+  .resume-content .left .ed-details p{
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+  }
+  
+  .resume-content .right .ex{
+    border: 3px solid #f5df4e;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding: 0px 20px;
+  }
+  
+  .resume-content .right h2{
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .resume-content .right .ex .ex-details{
+    margin: 15px 0px;
+    border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+    padding-bottom: 15px;
+  }
+  
+  .resume-content .right .ex .ex-details:nth-child(3){
+    border-bottom: transparent;
+  }
+  
+  .resume-content .right .ex-details h3{
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px; 
+  }
+  
+  .resume-content .right .ex-details p{
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+  }
+  
+  .my-skills h2{
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+  }
+  
+  .skill-img{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    margin-top: 20px;
+  }
+  
+  .skill-img img:nth-child(1){
+    width: 110px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(2){
+    width: 110px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(3){
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(4){
+    width: 230px;
+    height: auto;
+  }
+  .skill-img img:nth-child(5){
+    width: 160px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .skill-img img:nth-child(6){
+    width: 130px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .skill-img img:nth-child(7){
+    width: 160px;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .resume a{
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .resume a:hover{
+    background-color: black;
+    color: white;
+    transition: all .3s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .resume {
+    height: auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .resume .title h2 {
+    text-align: center;
+    padding: 0px 5px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f5df4e;
+  }
+  
+  .resume .sub-title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+  
+  .resume-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .resume-content .left-and-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .resume .left{
+    width: 100%;
+  }
+  
+  .resume .right{
+    width: 100%;
+  }
+  
+  .resume-content .left .ed{
+    border: 3px solid #f5df4e;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding-left: 20px;
+  }
+  
+  .resume-content .left h2{
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .resume-content .left .ed .ed-details{
+    margin: 15px 0px;
+    border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+    padding-bottom: 15px;
+  }
+  
+  .resume-content .left .ed .ed-details:nth-child(3){
+    border-bottom: transparent;
+  }
+  
+  .resume-content .left .ed-details h3{
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px; 
+  }
+  
+  .resume-content .left .ed-details p{
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+  }
+  
+  .resume-content .right .ex{
+    border: 3px solid #f5df4e;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding: 0px 20px;
+  }
+  
+  .resume-content .right h2{
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .resume-content .right .ex .ex-details{
+    margin: 15px 0px;
+    border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+    padding-bottom: 15px;
+  }
+  
+  .resume-content .right .ex .ex-details:nth-child(3){
+    border-bottom: transparent;
+  }
+  
+  .resume-content .right .ex-details h3{
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px; 
+  }
+  
+  .resume-content .right .ex-details p{
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+  }
+  
+  .my-skills h2{
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+  }
+  
+  .skill-img{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    margin-top: 20px;
+  }
+  
+  .skill-img img:nth-child(1){
+    width: 110px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(2){
+    width: 110px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(3){
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(4){
+    width: 230px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(5){
+    width: 160px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(6){
+    width: 130px;
+    height: auto;
+    margin-top: 20px;
+  }
+  .skill-img img:nth-child(7){
+    width: 160px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .resume a{
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .resume a:hover{
+    background-color: black;
+    color: white;
+    transition: all .3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .resume {
+    height: auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .resume .title h2 {
+    text-align: center;
+    padding: 0px 5px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f5df4e;
+  }
+  
+  .resume .sub-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+  
+  .resume-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .resume-content .left-and-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .resume .left{
+    width: 100%;
+  }
+  
+  .resume .right{
+    width: 100%;
+  }
+  
+  .resume-content .left .ed{
+    border: 3px solid #f5df4e;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding-left: 20px;
+  }
+  
+  .resume-content .left h2{
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .resume-content .left .ed .ed-details{
+    margin: 15px 0px;
+    border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+    padding-bottom: 15px;
+  }
+  
+  .resume-content .left .ed .ed-details:nth-child(3){
+    border-bottom: transparent;
+  }
+  
+  .resume-content .left .ed-details h3{
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px; 
+  }
+  
+  .resume-content .left .ed-details p{
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+  }
+  
+  .resume-content .right .ex{
+    border: 3px solid #f5df4e;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding: 0px 20px;
+  }
+  
+  .resume-content .right h2{
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .resume-content .right .ex .ex-details{
+    margin: 15px 0px;
+    border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+    padding-bottom: 15px;
+  }
+  
+  .resume-content .right .ex .ex-details:nth-child(3){
+    border-bottom: transparent;
+  }
+  
+  .resume-content .right .ex-details h3{
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px; 
+  }
+  
+  .resume-content .right .ex-details p{
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+  }
+  
+  .my-skills h2{
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+  }
+  
+  .skill-img{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    margin-top: 20px;
+  }
+  
+  .skill-img img:nth-child(1){
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(2){
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(3){
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(4){
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(5){
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .skill-img img:nth-child(6){
+    width: 90px;
+    height: auto;
+    margin-top: 20px;
+  }
+  .skill-img img:nth-child(7){
+    width: 130px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .resume a{
+    font-size: 18px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .resume a:hover{
+    background-color: black;
+    color: white;
+    transition: all .3s ease-in-out;
+  }
+}
+
+/* 
+.resume {
+  height: auto;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.resume .title h2 {
+  text-align: center;
+  padding: 0px 5px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #f5df4e;
+}
+
+.resume .sub-title {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.resume-content{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.resume-content .left-and-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.resume .left{
+  width: 50%;
+}
+
+.resume .right{
+  margin-left: 20px;
+  width: 50%;
+}
+
+.resume-content .left .ed{
+  border: 3px solid #f5df4e;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+  padding-left: 20px;
+}
+
+.resume-content .left h2{
+  font-size: 30px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.resume-content .left .ed .ed-details{
+  margin: 15px 0px;
+  border-bottom: 2px solid rgba(59, 59, 59, 0.222);
+  padding-bottom: 15px;
+}
+
+.resume-content .left .ed .ed-details:nth-child(3){
+  border-bottom: transparent;
+}
+
+.resume-content .left .ed-details h3{
+  font-size: 22px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 10px; 
+}
+
+.resume-content .left .ed-details p{
+  font-size: 18px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.resume-content .right .ex{
+  border: 3px solid #f5df4e;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+  padding: 0px 20px;
+}
+
+.resume-content .right h2{
+  font-size: 30px;
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.resume-content .right .ex .ex-details{
   margin: 15px 0px;
   border-bottom: 2px solid rgba(59, 59, 59, 0.222);
   padding-bottom: 15px;
@@ -161,12 +1222,10 @@
 
 .skill-img img:nth-child(1){
   width: 100px;
-  /* border: 2px solid red; */
   height: auto;
 }
 .skill-img img:nth-child(2){
   width: 100px;
-  /* border: 2px solid red; */
   height: auto;
 }
 .skill-img img:nth-child(3){
@@ -210,4 +1269,4 @@
   background-color: black;
   color: white;
   transition: all .3s ease-in-out;
-}
+} */

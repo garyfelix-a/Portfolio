@@ -1,3 +1,4 @@
+import { useRef } from 'react'
 import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -9,16 +10,25 @@ import Resume from './components/Resume'
 import WhatIDo from './components/WhatIDo'
 
 function App() {
-
+  const portfolioRef = useRef(null);
+  const contactRef = useRef(null);
   return (
     <div>
         <Navbar />
-        <Home />
+        <div id='home'>
+        <Home portfolioRef={portfolioRef} contactRef={contactRef} />
+        </div>
+        <div id='about'>
         <About />
+        </div>
+        <div id='whatIDo'>
         <WhatIDo />
+        </div>
+        <div id='resume'>
         <Resume />
-        <Portfolio />
-        <Contact />
+        </div>
+        <div ref={portfolioRef} id='portfolio'><Portfolio /></div>
+        <div ref={contactRef} id='contact'><Contact /></div>
         <Footer />
     </div>
   )

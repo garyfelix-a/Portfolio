@@ -1,6 +1,412 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200..800&display=swap");
 
-.hero {
+/* 🖥️ Large desktops */
+@media screen and (min-width: 1201px) {
+  .hero {
+    margin-top: 60px;
+    padding: 0px 60px;
+    height: 100vh;
+    width: auto;
+    background: #f5df4e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero .left .info {
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .hero .left .info h2 {
+    font-size: 48px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+  }
+
+  .hero .left .info p {
+    color: rgba(54, 54, 54, 0.945);
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .hero .left .based {
+    font-size: 40px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .hero .left .left-buttons {
+    padding: 30px 0px;
+  }
+
+  .hero .left .left-buttons .view-my-work {
+    padding: 10px 30px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .hero .left .left-buttons .contact {
+    color: black;
+    margin-left: 30px;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .right img {
+    width: 600px;
+    height: auto;
+  }
+}
+
+/* 💻 Laptops & Small desktops */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .hero {
+    margin-top: 60px;
+    padding: 0px 60px;
+    height: 100vh;
+    background: #f5df4e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero .left .info {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .hero .left .info h2 {
+    font-size: 38px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
+  }
+  
+  .hero .left .info p {
+    color: rgba(54, 54, 54, 0.945);
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .hero .left .based {
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .hero .left .left-buttons {
+    padding: 30px 0px;
+  }
+  
+  .hero .left .left-buttons .view-my-work {
+    padding: 10px 30px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .hero .left .left-buttons .contact {
+    color: black;
+    margin-left: 30px;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .right img {
+    width: 500px;
+    height: auto;
+  }
+  
+}
+
+/* 📱📲 Tablets & Large phones (iPads, large Androids) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    margin-top: 60px;
+    padding: 30px 60px;
+    height: auto;
+    background: #f5df4e;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero .left .info {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .hero .left .info h2 {
+    font-size: 48px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    text-transform: capitalize;
+  }
+  
+  .hero .left .info p {
+    color: rgba(54, 54, 54, 0.945);
+    font-size: 70px;
+    text-align: center;
+    font-weight: 700;
+    width: 100vw;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .hero .left .based {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .hero .left .left-buttons {
+    padding: 30px 0px;
+    text-align: center;
+  }
+  
+  .hero .left .left-buttons .view-my-work {
+    padding: 10px 30px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .hero .left .left-buttons .contact {
+    color: black;
+    margin-left: 30px;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .right img {
+    width: 350px;
+    height: auto;
+  }
+  
+}
+
+/* 📱 Standard mobile phones (modern smartphones) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero {
+    margin-top: 60px;
+    padding: 40px 60px;
+    height: auto;
+    background: #f5df4e;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero .left .info {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .hero .left .info h2 {
+    font-size: 48px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    text-transform: capitalize;
+  }
+  
+  .hero .left .info p {
+    color: rgba(54, 54, 54, 0.945);
+    font-size: 70px;
+    text-align: center;
+    font-weight: 700;
+    width: 100vw;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .hero .left .based {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .hero .left .left-buttons {
+    padding: 30px 0px;
+    text-align: center;
+  }
+  
+  .hero .left .left-buttons .view-my-work {
+    padding: 10px 30px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .hero .left .left-buttons .contact {
+    color: black;
+    margin-left: 30px;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .right img {
+    width: 450px;
+    height: auto;
+  }
+}
+
+/* 📱 Small phones (iPhone SE, older Androids) */
+@media screen and (max-width: 480px) {
+  .hero {
+    margin-top: 60px;
+    padding: 30px 60px;
+    height: auto;
+    background: #f5df4e;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero .left .info {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .hero .left .info h2 {
+    font-size: 30px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    text-transform: capitalize;
+  }
+  
+  .hero .left .info p {
+    color: rgba(54, 54, 54, 0.945);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    width: 100vw;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .hero .left .based {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .hero .left .left-buttons {
+    padding: 30px 0px;
+    text-align: center;
+  }
+  
+  .hero .left .left-buttons .view-my-work {
+    padding: 10px 30px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .hero .left .left-buttons .contact {
+    color: black;
+    margin-left: 30px;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .right img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+/* .hero {
   margin-top: 60px;
   padding: 0px 60px;
   height: 100vh;
@@ -8,10 +414,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.hero .left {
-  /* border: 2px solid red; */
 }
 
 .hero .left .info {
@@ -37,7 +439,6 @@
 }
 
 .hero .left .based {
-  /* border: 2px solid red; */
   font-size: 40px;
   font-family: "Dosis", serif;
   font-optical-sizing: auto;
@@ -46,7 +447,6 @@
 }
 
 .hero .left .left-buttons {
-  /* border: 2px solid white; */
   padding: 30px 0px;
 }
 
@@ -78,4 +478,4 @@
 .right img {
   width: 600px;
   height: auto;
-}
+} */

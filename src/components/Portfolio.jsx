@@ -88,34 +88,6 @@ const Portfolio = () => {
             <p>Web Development</p>
           </div>
         </a>
-        {/* <a
-          href="https://weather-app-af5a9.web.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-card"
-        >
-          <div className="project-image">
-            <img src={work4} alt="customer care registry" />
-          </div>
-          <div className="project-info">
-            <h3>Weather React Website</h3>
-            <p>Web Development</p>
-          </div>
-        </a>
-        <a
-          href="https://foftact.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-card"
-        >
-          <div className="project-image">
-            <img src={work5} alt="customer care registry" />
-          </div>
-          <div className="project-info">
-            <h3>Foftact - Own Website</h3>
-            <p>Content Writing</p>
-          </div>
-        </a> */}
       </div>
       <div className="projects-2">
         <a

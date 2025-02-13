@@ -1,4 +1,147 @@
-footer {
+@media screen and (min-width: 1201px) {
+  footer {
+    background-color: black;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer p {
+    color: white;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  footer h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  footer {
+    background-color: black;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  footer h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  footer {
+    background-color: black;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  footer h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  footer {
+    background-color: black;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  footer h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    background-color: black;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+  }
+  
+  footer h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+  }
+}
+
+/* footer {
   background-color: black;
   padding: 50px 60px;
   display: flex;
@@ -18,8 +161,7 @@ footer p {
 footer h3 {
   color: white;
   font-size: 30px;
-  /* font-size: 40px; */
   font-weight: 500;
   font-family: "Anton", sans-serif;
   letter-spacing: 2px;
-}
+} */

@@ -1,12 +1,372 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200..800&family=Outfit:wght@100..900&display=swap");
 
+@media screen and (min-width: 1201px) {
+  .main {
+    background-color: #f8f9fa;
+    height: auto;
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main .title h2 {
+    text-align: center;
+    padding: 0px 5px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f5df4e;
+  }
+
+  .main .sub-title {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 40px 0px;
+  }
+
+  .works .my-work {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+  }
+
+  .works .my-work img {
+    width: 60px;
+    height: auto;
+  }
+
+  .works .my-work h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .works .my-work p {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 20px;
+    font-family: "Dosis", serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .main {
+    background-color: #f8f9fa;
+    height: auto;
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main .title h2 {
+    text-align: center;
+    padding: 0px 5px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f5df4e;
+  }
+
+  .main .sub-title {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 40px 0px;
+  }
+
+  .works .my-work {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+  }
+
+  .works .my-work img {
+    width: 60px;
+    height: auto;
+  }
+
+  .works .my-work h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .works .my-work p {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 19px;
+    font-family: "Dosis", serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .main {
+    background-color: #f8f9fa;
+    height: auto;
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main .title h2 {
+    text-align: center;
+    padding: 0px 5px;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f5df4e;
+  }
+
+  .main .sub-title {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  }
+
+  .works .my-work {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+
+  .works .my-work img {
+    width: 60px;
+    height: auto;
+  }
+
+  .works .my-work h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .works .my-work p {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 22px;
+    font-family: "Dosis", serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .main {
+    background-color: #f8f9fa;
+    height: auto;
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main .title h2 {
+    text-align: center;
+    padding: 0px 5px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    background-color: #f5df4e;
+  }
+
+  .main .sub-title {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  }
+
+  .works .my-work {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+
+  .works .my-work img {
+    width: 60px;
+    height: auto;
+  }
+
+  .works .my-work h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .works .my-work p {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 20px;
+    font-family: "Dosis", serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    background-color: #f8f9fa;
+    height: auto;
+    padding: 80px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main .title h2 {
+    text-align: center;
+    padding: 0px 5px;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-style: normal;
+    background-color: #f5df4e;
+  }
+
+  .main .sub-title {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  }
+
+  .works .my-work {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+
+  .works .my-work img {
+    width: 60px;
+    height: auto;
+  }
+
+  .works .my-work h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .works .my-work p {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 20px;
+    font-family: "Dosis", serif;
+    font-weight: 500;
+  }
+}
+/* 
 .main {
   background-color: #f8f9fa;
   height: 90vh;
   padding: 40px 60px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -28,7 +388,6 @@
 }
 
 .works {
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +401,6 @@
   justify-content: center;
   align-items: center;
   padding: 0px 30px;
-  /* border: 2px solid red; */
 }
 
 .works .my-work img {
@@ -67,4 +425,4 @@
     font-family: "Dosis", serif;
     letter-spacing: 1px;
     font-weight: 500;
-}
+} */
