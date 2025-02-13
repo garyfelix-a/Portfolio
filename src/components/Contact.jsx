@@ -19,6 +19,20 @@ const Contact = () => {
   function handleSubmit(e) {
     e.preventDefault();
 
+    const name = form.current["from_name"].value.trim();
+    const email = form.current["from_email"].value.trim();
+
+    if(name.length < 2 || name.length > 50){
+      alert("Name should be between 2 and 50 characters long");
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert("Please enter a valid email address");
+      return;
+    }
+
     emailjs
       .sendForm(keys.serviceId, keys.templateId, form.current, {
         publicKey: keys.publicKey,
@@ -76,11 +90,11 @@ const Contact = () => {
         <form ref={form} onSubmit={handleSubmit}>
           <label htmlFor="">Your Name: </label>
           <br />
-          <input type="text" name="from_name" required />
+          <input type="text" name="from_name" autoComplete="off" required />
           <br />
           <label htmlFor="">Your Email Address: </label>
           <br />
-          <input type="email" name="from_email" required />
+          <input type="email" name="from_email" autoComplete="off" required />
           <br />
           <label htmlFor="">How can I help you? </label>
           <br />
@@ -88,6 +102,7 @@ const Contact = () => {
             name="message"
             id=""
             rows={5}
+            autoComplete="off"
             required
           ></textarea>
           <br />
